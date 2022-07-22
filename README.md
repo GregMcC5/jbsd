@@ -1,4 +1,3 @@
-# jbsd
 # Jacques Burkhardt Scientific Drawings Wikimedia Upload Project
 
 Gregory McCollum, gregmcc@umich.edu, 2022 Harvard Library UX and Discover Intern
