@@ -8,13 +8,13 @@ The Python script in this repository was used in a project to upload [Harvard Li
 
 The getmetadata.py script in this repository does the following things:
 
-- Accesses the Jacques Burkhardt collection  via Harvard Library's API
+- **Accesses the Jacques Burkhardt collection via Harvard Library's API.** Because the LibraryCloud API limits returns to a maximum 250 results, the get_metdata.py script requests the collection materials from the LibraryCloud four times, resetting the start point each time to capture the whole collection. The materials are returned in JSON.
 
-- Downloads the image for each item to a local folder
+- **Downloads the image for each item to a local folder.** Each item is isolated and the URL location of the item image is accessed and downloaded locally into a WikiImages folder.
 
-- Crosswalks each item's metadata to Wikimedia Commons's {{Artwork}} template
+- **Crosswalks each item's metadata to Wikimedia Commons's {{Artwork}} template.** Each item is run through a create_item_dict function that extracts the necessary item metadata and returns a dictionary  that matches the specifications of the Wikimedia {{Artwork}} template populated with the extracted data. From each item dictionary, the necessary fields are then appended as a list (along with the filepath of the downloaded image) to a “completed_entries” list of completed records.
 
-- Writes the crosswalked metadata and local filepath for each item to a CSV 
+- **Writes the crosswalked metadata and local filepath for each item to a CSV.** The "completed_entries" list is written as a CSV. 
 
 The jbsd_wikimedia_upload.csv can be used to perform a bulk upload to Wikimedi with [Pattypan](https://commons.wikimedia.org/wiki/Commons:Pattypan), an open-source Java tool. Pattypan has two final requirements for spreadsheets:
 
