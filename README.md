@@ -61,7 +61,7 @@ The jbsd_wikimedia_upload.csv can be used to perform a bulk upload to Wikimedi w
 
 This final .xls final can be validated and uploaded with Pattypan. Can also auto-generate an upload-ready spreadsheet with its Generate feature, but this spreadsheet will lack user-defined metadata.
 
-[The Jacques Burkhardt Scientific Drawings Wikimedia cateogry is available now.](https://commons.wikimedia.org/wiki/Category:Jacques_Burkhardt_Scientific_Drawings)
+[The Jacques Burkhardt Scientific Drawings Wikimedia category is available now.](https://commons.wikimedia.org/wiki/Category:Jacques_Burkhardt_Scientific_Drawings)
 
 ---
 
