@@ -4,7 +4,7 @@ Gregory McCollum, gregmcc@umich.edu, 2022 Harvard Library UX and Discover Intern
 
 
 
-The Python script in this repository was used in a project to upload [Harvard Library's Jacques Burkhardt Scientific Drawings CURIOSity Colleciton](https://curiosity.lib.harvard.edu/jacques-burkhardt-scientific-drawings) to Wikimedia Commons.
+The Python script in this repository was used in a project to upload [Harvard Library's Jacques Burkhardt Scientific Drawings CURIOSity Colleciton](https://curiosity.lib.harvard.edu/jacques-burkhardt-scientific-drawings) to Wikimedia Commons. [Full documentation for this project is avilable online.](https://docs.google.com/document/d/1yhSYYrx5XrOyEDcm4i6N7sVYfI_8bjQUqwKsEImGqYg/edit?usp=sharing)
 
 The getmetadata.py script in this repository does the following things:
 
